@@ -2,6 +2,12 @@
 
 > Aplicação de controle financeiro pessoal premium, construída para o **Hackathon PontoEnv 2026**.
 
+[![Deploy no Netlify](https://img.shields.io/badge/🚀%20Demo%20ao%20vivo-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://agent-6a280d5e150d404fb2f6fbbc--finance-pontenv.netlify.app/)
+
+## 🔗 [▶ Acesse a aplicação em produção](https://agent-6a280d5e150d404fb2f6fbbc--finance-pontenv.netlify.app/)
+
+> **URL:** `https://agent-6a280d5e150d404fb2f6fbbc--finance-pontenv.netlify.app/`
+
 Um produto pronto para produção com design system consistente, dark mode, insights inteligentes, exportação de dados e arquitetura escalável — tudo sem bibliotecas de componentes de terceiros.
 
 ---
@@ -118,7 +124,7 @@ O arquivo gerado inclui BOM (`\uFEFF`) para que o Excel (Windows/pt-BR) abra cor
 
 ```bash
 # Clonar o repositório
-git clone <seu-repositorio>
+git clone https://github.com/guilhermeonrails/pontoenv-finance.git
 cd pontoenv-finance
 
 # Instalar dependências
