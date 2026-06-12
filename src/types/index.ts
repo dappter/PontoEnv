@@ -12,6 +12,7 @@ export type Category =
   | 'leisure'
   | 'housing'
   | 'clothing'
+  | 'bill'
   | 'other';
 
 export type SortOrder =

@@ -12,6 +12,7 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   health: 'Saúde',
   education: 'Educação',
   leisure: 'Lazer',
+  bill: 'Fatura',
   housing: 'Moradia',
   clothing: 'Vestuário',
   other: 'Outros',
@@ -29,12 +30,13 @@ export const CATEGORY_ICONS: Record<Category, string> = {
   leisure: '🎮',
   housing: '🏠',
   clothing: '👕',
+  bill: '💳',
   other: '📦',
 };
 
 export const INCOME_CATEGORIES: Category[] = ['salary', 'freelance', 'investment', 'gift'];
 export const EXPENSE_CATEGORIES: Category[] = [
-  'food', 'transport', 'health', 'education', 'leisure', 'housing', 'clothing', 'other',
+  'food', 'transport', 'health', 'education', 'leisure', 'housing', 'clothing', 'bill', 'other',
 ];
 
 export const TYPE_LABELS: Record<TransactionType, string> = {

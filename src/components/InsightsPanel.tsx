@@ -72,7 +72,7 @@ export default function InsightsPanel({ transactions }: Props) {
               🏆 Maior gasto
             </p>
             <div className="flex items-center justify-between">
-              <span className="text-sm font-bold text-slate-800 dark:text-white flex items-center gap-1.5">
+              <span className="text-sm font-bold text-danger-900 dark:text-danger-100 flex items-center gap-1.5">
                 <span>{CATEGORY_ICONS[insights.topCategory.category]}</span>
                 {CATEGORY_LABELS[insights.topCategory.category]}
               </span>
